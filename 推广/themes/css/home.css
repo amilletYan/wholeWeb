@@ -29,7 +29,7 @@ a:hover, a:focus {outline:inherit}
 .navbar-brands { background-color: transparent;border-bottom:1px solid rgba(255, 255, 255, 0.15); border-radius: 0; z-index: 5; padding:20px 30px;}
 
 .navbar-logo { 
-    /* background-image: url("../icon/logo1.png");   */
+    background-color: rgb(255, 255, 255) ;   
     background-position: 50% 50%; background-repeat: no-repeat; background-size: contain;width: 150px;}
 
 .navbar-default .navbar-nav > li > a {color:#fff;}
