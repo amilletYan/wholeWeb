@@ -235,7 +235,7 @@ section.our-services p.text-center{
 #features .ac a{
 	font-size: 20px;
     font-weight:normal;
-	color:beige;
+	color:rgb(223, 130, 113);
 	text-decoration:none;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -244,7 +244,8 @@ section.our-services p.text-center{
 }
 #features p {
 	font-size: 17px;
-    font-weight: 100;
+	font-weight: 100;
+	text-align: left;
     line-height: 27px;
 	color:#fff;
 }
@@ -286,6 +287,7 @@ section.our-events p.eve {
 	font-size:17px;
 	color:#fff;
 	line-height: 25px;
+	text-align: left;
 	font-weight:100;
 	padding: 0 50px 45px;
 }
@@ -304,6 +306,13 @@ section.our-events .event-info:hover {
 /*-- Gallery Section --*/
 section.our-gallery {
 	padding:100px 0;
+	background:url(../images/gallery.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
 }
 section.our-gallery img.img-responsive {
 	display:inline;
@@ -967,7 +976,7 @@ section.our-events .event-info {
 	width:60%;
 }
 section.our-events p.eve {
-	text-align:center;
+	text-align:left;
 }
 section.our-gallery img.img-responsive {
     width: 175px;
@@ -1034,7 +1043,14 @@ section.footer .footer-center .form-control {
     height: 350px;
 }
 section.about-us {
-	text-align:-webkit-center;
+	padding:100px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	text-align:left;
 }
 section.about-us .about-info h4 {
 	padding:30px 0 20px;
